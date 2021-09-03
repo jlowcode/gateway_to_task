@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+        <fieldset name="plg-form-gateway-to-task-options" label="COM_FABRIK_OPTIONS">
+            <field name="gateway_to_task_condition"
+                   type="fabrikeditor"
+                   mode="php"
+                   label="PLG_FABRIK_FORM_GATEWAY_TO_TASK_CONDITION_LABEL"
+                   description="PLG_FABRIK_FORM_GATEWAY_TO_TASK_CONDITION_DESC"
+            />
+            <field name="gateway_to_task_table"
+                   type="fabriktables"
+                   label="PLG_FABRIK_FORM_GATEWAY_TO_TASK_TABLE_LABEL"
+                   description="PLG_FABRIK_FORM_GATEWAY_TO_TASK_TABLE_DESC"
+            />
+            <field name="gateway_to_task_element"
+                   type="number"
+                   label="PLG_FABRIK_FORM_GATEWAY_TO_TASK_ELEMENT_LABEL"
+                   description="PLG_FABRIK_FORM_GATEWAY_TO_TASK_ELEMENT_DESC"
+            />
+            <field name="gateway_to_task_rowid"
+                   type="number"
+                   label="PLG_FABRIK_FORM_GATEWAY_TO_TASK_ROWID_LABEL"
+            />
+        </fieldset>
+    </fields>
+</form>
